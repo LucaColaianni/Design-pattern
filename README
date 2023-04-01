@@ -1,0 +1,48 @@
+Ci sono diversi design pattern, il FACTORY co prototype e il FACTORY con il Singleton
+
+Il factory lo possiamo eseguire in due maniere,
+
+SINGLETON:
+
+voglio creare più di un jeeg
+
+jeeg1 avrà
+-lanciamissilidx
+-lasersz
+-legs
+
+jeef2 avrà
+-lanciamissilidx
+-lanciamissilisx
+-legs
+
+ha senso creare due oggetti di lanciamissilidx e due oggetti di leg per creare due jeeg?
+se ha senso utilizziamo la factory prototype, se no usiamo il design pattern singleton. -> devo controllare 
+in memoria è presente già un oggetto di clansse lanciamissilidx e legs. se ci sono non ne creo di nuovi per
+non occupare troppa memoria.
+
+In parole semplici, io ho un negozio, mi chiedono se ho il pepe. se si glielo fornisco subito, se no lo devo ordinare
+Mi evita di istanziare oggetti che già ho.
+
+
+---- CREAZIONE PERSONA ----
+
+- Può cucinare , canCook. -> Tramite le braccia, quindi classe Arm 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
